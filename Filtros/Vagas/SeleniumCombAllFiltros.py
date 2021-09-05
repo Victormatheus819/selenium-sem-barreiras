@@ -7,7 +7,7 @@ import time
 
 
 driver = webdriver.Chrome(executable_path=r"chromedriver.exe")
-driver.get("https://sem-barreiras.herokuapp.com/")
+driver.get("http://localhost:8080/")
 but=driver.find_element_by_class_name("buttonFiltro")
 
 but.click()
@@ -38,4 +38,4 @@ textResult = driver.find_element_by_id("textoResultado")
 
 
 if(textResult.text == "1 resultados"):
-    print ("Teste com sucesso !!!\n")
+    print ("Teste de combinação de todos os filtros com sucesso !!!\n")
