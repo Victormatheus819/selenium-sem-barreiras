@@ -17,3 +17,8 @@ remu=driver.find_element_by_id("remuneracao")
 remu.send_keys("1700")
 
 driver.find_element_by_class_name("btn-confirm").click()
+
+textResult = driver.find_element_by_id("textoResultado")
+
+if(textResult.text == "0 resultados"):
+    print ("\nTeste filtro de remuneração feito com sucesso !!!\n")

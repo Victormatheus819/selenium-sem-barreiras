@@ -30,4 +30,4 @@ cursodesc.click()
 
 
 if( driver.current_url == "https://www.udemy.com/course/curso-de-programacao-em-python-do-basico-ao-avancado/"):
-    print ("Teste de filtro de curso feito com sucesso  !!!\n")
+    print ("\nTeste de filtro de curso feito com sucesso  !!!\n")

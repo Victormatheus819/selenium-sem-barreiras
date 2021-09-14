@@ -23,4 +23,4 @@ textResult = driver.find_element_by_id("textoResultado")
 
 
 if(textResult.text == "1 resultados"):
-    print ("Teste filtro de deficiencia feito com sucesso !!!\n")
+    print ("\nTeste filtro de deficiencia feito com sucesso !!!\n")

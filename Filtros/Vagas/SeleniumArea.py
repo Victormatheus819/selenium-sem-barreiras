@@ -23,4 +23,4 @@ textResult = driver.find_element_by_id("textoResultado")
 
 
 if(textResult.text == "3 resultados"):
-    print ("Teste com sucesso !!!\n")
+    print ("\nTeste filtro de area  feito com sucesso com sucesso !!!\n")

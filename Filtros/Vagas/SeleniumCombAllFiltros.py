@@ -38,4 +38,4 @@ textResult = driver.find_element_by_id("textoResultado")
 
 
 if(textResult.text == "1 resultados"):
-    print ("Teste de combinação de todos os filtros com sucesso !!!\n")
+    print ("\nTeste de combinação de todos os filtros com sucesso !!!\n")
